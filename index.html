@@ -9,7 +9,7 @@
 </head>
 <body class="body">
 
-    <header class="container">       <!--add logo-->
+    <header class="">       <!--add logo-->
         <div class="logo">
             <div class="logo-icon"><img src="img/logo copia.png" alt=logo></div>
             <h1 class="logo-text">Toboolist</h1>
@@ -22,7 +22,7 @@
             <button class="button-disable">Add Section</button>
         </div>
                   <!--add list-->
-                  <div class="task-section">
+                  <div class="section">
                     <h2>New Task</h2>
                     <ul>
                         <li>
@@ -32,26 +32,44 @@
                     </ul>
                 </div>
                 <div class="section">
-                    <h2>Today</h2>
-                    <ul>
-                        <li><span class="task-name">Recruiting blog post</span><span class="tag editorial">Editorial</span></li>
-                        <li><span class="task-name">Mobile app launch</span><span class="tag goals">Q1 Goals</span></li>
-                        <li class="overdue"><span class="task-name">Interview John H.</span><span class="tag recruiting">Recruiting</span></li>
-                        <li><span class="task-name">Summit update to mobile storefronts</span><span class="tag mobile">Mobile</span></li>
-                    </ul>
+                    <h3 class="header">Today</h3>
+                    <div class="completed">
+                      <span class="label">Recruiting blog post</span>
+                      <span class="editorial">Editorial</span>
+                    </div>
+                    <div class="completed">
+                      <span class="label">Mobile app launch</span>
+                      <span class="q1-goals">Q1 Goals</span>
+                    </div>
+                    <div class="pending">
+                      <span class="label">Interview John H.</span>
+                      <span class="recruiting">Recruiting</span>
+                    </div>
+                    <div class="completed">
+                      <span class="label">Summit update to mobile storefronts</span>
+                      <span class="mobile">Mobile</span>
+                    </div>
+                  </div>
+              
+                  <div class="section">
+                    <h3 class="header">Upcoming</h3>
+                    <div class="pending">
+                      <span class="label">Schedule meeting with Alex</span>
+                    </div>
+                    <div class="completed">
+                      <span class="label">Homepage refresh</span>
+                      <span class=" website">Website</span>
+                    </div>
+                    <div class="completed">
+                      <span class="label">Onboard new Sales team members</span>
+                      <span class=" sales">Sales</span>
+                    </div>
+                    <div class="completed">
+                      <span class="label">Review editorial calendar</span>
+                      <span class="editorial">Editorial</span>
+                    </div>
+                  </div>
                 </div>
-        
-                <div class="section">
-                    <h2>Upcoming</h2>
-                    <ul>
-                        <li class="overdue"><span class="task-name">Schedule meeting with Alex</span></li>
-                        <li><span class="task-name">Homepage refresh</span><span class="tag website">Website</span></li>
-                        <li><span class="task-name">Onboard new Sales team members</span><span class="tag sales">Sales</span></li>
-                        <li><span class="task-name">Review editorial calendar</span><span class="tag editorial">Editorial</span></li>
-                    </ul>
-                </div>
-            </div>
-    </main>
-     
-</body>
-</html>
+              
+              </body>
+              </html>    

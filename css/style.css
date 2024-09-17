@@ -11,6 +11,7 @@
       line-height: 1.6;
       background-color: #f4f4f4;
       padding: 20px;
+      text-align: center;
     }
     
 
@@ -35,7 +36,7 @@
 
   /* logo text */
   .logo-text {
-    font-size: 25px;
+    font-size: 45px;
     font-weight: bold;
     color: #363636;
   }
@@ -70,4 +71,75 @@
   border-radius: 10px;
   border: 1px solid #cccccc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section header */
+.header {
+  margin-bottom: 10px;
+  color: #292929;
+  display: flex;
+  align-items: center;
+}
+.header:{
+  content: "▾";
+  margin-right: 8px;
+}
+
+.section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*  task styling */
+.task {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.completed {
+  text-decoration: 
+  color: #999;
+}
+
+
+/* Tag styles */
+.label {
+  font-weight: bold;
+}
+
+.tag {
+  padding: 3px 8px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+/* Tag colors */
+.editorial {
+  background-color: #007bff;
+}
+
+.q1-goals {
+  background-color: #6f42c1;
+}
+
+..recruiting {
+  background-color: #28a745;
+}
+
+.mobile {
+  background-color: #ffc107;
+}
+
+.website {
+  background-color: #fd7e14;
+}
+
+.sales {
+  background-color: #20c997;
 }
