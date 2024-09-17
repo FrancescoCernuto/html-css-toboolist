@@ -7,14 +7,51 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body>
-    <header>
+<body class="body">
+
+    <header class="container">       <!--add logo-->
         <div class="logo">
             <div class="logo-icon"><img src="img/logo copia.png" alt=logo></div>
             <h1 class="logo-text">Toboolist</h1>
-
         </div>
     </header>
-    
+    <main></main>
+                   <!--add button-->
+        <div id="addbutton">
+            <button class="button-add">Add Task</button>
+            <button class="button-disable">Add Section</button>
+        </div>
+                  <!--add list-->
+                  <div class="task-section">
+                    <h2>New Task</h2>
+                    <ul>
+                        <li>
+                            <span>Quarterly Newsletter</span>
+                            <span class="label blue">Editorial</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Today</h2>
+                    <ul>
+                        <li><span class="task-name">Recruiting blog post</span><span class="tag editorial">Editorial</span></li>
+                        <li><span class="task-name">Mobile app launch</span><span class="tag goals">Q1 Goals</span></li>
+                        <li class="overdue"><span class="task-name">Interview John H.</span><span class="tag recruiting">Recruiting</span></li>
+                        <li><span class="task-name">Summit update to mobile storefronts</span><span class="tag mobile">Mobile</span></li>
+                    </ul>
+                </div>
+        
+                <div class="section">
+                    <h2>Upcoming</h2>
+                    <ul>
+                        <li class="overdue"><span class="task-name">Schedule meeting with Alex</span></li>
+                        <li><span class="task-name">Homepage refresh</span><span class="tag website">Website</span></li>
+                        <li><span class="task-name">Onboard new Sales team members</span><span class="tag sales">Sales</span></li>
+                        <li><span class="task-name">Review editorial calendar</span><span class="tag editorial">Editorial</span></li>
+                    </ul>
+                </div>
+            </div>
+    </main>
+     
 </body>
 </html>
